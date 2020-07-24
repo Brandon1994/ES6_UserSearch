@@ -27,3 +27,12 @@ a {
 h1 {
   text-align: center;
 }
+
+.preloader{
+  text-align: center;
+}
+
+img{
+  border-radius: 50%;
+  padding-left: 2%;
+}

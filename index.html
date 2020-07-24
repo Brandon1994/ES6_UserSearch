@@ -10,27 +10,30 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <h1>Pesquisa de Usuários</h1>
     <div id="mainbox">
-      <h1>Pesquisa de Usuários</h1>
+      <div id="loading">
+
+      </div>
       <input
         id="nameToSearch"
         type="text"
         placeholder="Digite aqui um nome para busca"
       />
-      <a class="waves-effect waves-light btn-small">Buscar</a>
+      <a id="search" class="waves-effect waves-light btn-small">Buscar</a>
     </div>
     <div>
       <div id="leftbox">
         <ul id="people" class="collection">
           <li class="collection-item">
-            <h3>Nenhum usuário encontrado</h3>
+            <h3 class="total-users">Nenhum usuário encontrado</h3>
           </li>
         </ul>
       </div>
       <div id="rightbox">
-        <ul class="collection">
-          <li class="collection-item">
-            <h3>Nada a ser exibido</h3>
+        <ul id="statiscsList" class="collection">
+          <li class="collection-item ">
+            <h3 class="statistics">Nada a ser exibido</h3>
           </li>
         </ul>
       </div>
