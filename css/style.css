@@ -1,0 +1,29 @@
+#nameToSearch {
+  width: 86%;
+  margin-left: 2%;
+}
+
+a {
+  width: 8%;
+  margin-right: 2%;
+}
+
+#mainBox {
+  margin-bottom: 5%;
+}
+
+#leftbox {
+  float: left;
+  width: 47%;
+  margin-left: 2%;
+}
+
+#rightbox {
+  float: right;
+  width: 47%;
+  margin-right: 2%;
+}
+
+h1 {
+  text-align: center;
+}
